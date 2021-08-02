@@ -1,0 +1,28 @@
+<style>
+body{
+    background-color: rgb(54, 17, 175);
+}
+#first  {
+    background-color: whitesmoke;
+}
+#second{
+    background-color: rgb(126, 71, 255);
+}
+/* div{ */
+    /* color: white; */
+/* } */
+.class,#first{
+   background-color: red; 
+   color: teal;
+   border: black;
+
+}
+.class2 p,span{
+    color:rgb(126, 71, 255);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+</style>

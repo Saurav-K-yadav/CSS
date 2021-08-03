@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  /* height: 23px; */
+  width: 345px;
+  background: blue;
+  margin: 10px 20px 5px 12px;
+  padding: 12px 8px;
+  border-width: 5px;
+  border-style: solid dotted dashed;
+  border-color: red;
+  border-radius: 50px;
+}
+.third {
+  height: 2000px;
+  background-color: steelblue;
+}
+.second {
+  background-color: red;
+  margin: 34px;
+  height: 60px;
+}

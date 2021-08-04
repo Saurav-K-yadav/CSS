@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    margin: 5px;
+    padding: 5px;
+    width: 231px;
+   height:235px ;
+   background-color: aqua;
+}
+.box2{
+
+    margin: 5px;
+    padding: 5px;
+    width: 231px;
+    height: 235px;
+    background-color: red;
+    
+
+}

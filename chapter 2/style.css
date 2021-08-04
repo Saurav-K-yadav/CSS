@@ -13,12 +13,24 @@
   border-color: red;
   border-radius: 50px;
 }
-.third {
-  height: 2000px;
-  background-color: steelblue;
-}
 .second {
+  box-sizing: content-box;
   background-color: red;
   margin: 34px;
-  height: 60px;
+  height: 200px;
+  border: 10px solid black;
+  padding: 10px;
+  width: 50%;
+
 }
+.third {
+  box-sizing: border-box;
+  /* Border-box doesn't include margin in it but padding and border */
+  width: 50%;
+  margin: 30px;
+  height: 200px;
+  border: 10px solid black;
+  padding: 10px;
+  background-color: steelblue;
+}
+  

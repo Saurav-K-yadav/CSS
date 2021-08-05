@@ -1,6 +1,13 @@
 .container{
-    font-size: 10px;
+    font-size: 14px;
 }
 .box{
     font-size: 3em  ;
+    background-color: red;
+}
+.box2{
+    background-color: aqua;
+    width: 50vw;
+    height: 50vh;
+  
 }

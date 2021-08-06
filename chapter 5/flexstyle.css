@@ -1,30 +1,54 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  .container{
-      display: flex;
-      /* used on container of other containers */
-      flex-direction: row;
-      /* flex-wrap: wrap-reverse; */
-      /* wraps content to fit when resizing window  */
-      justify-content: center;
-      background-color: brown;
-      height: 50vh;
-      align-items: center;
-      /* aligns items vertically */
-
-  }
-  .box1 {
-    height: 234px;
-    width: 345px;
-    border: 2px solid black;
-    background-color: blue;
-  }
-  .box2 {
-      border: 2px solid black;
-    height: 234px;
-    width: 345px;
-    background-color: red;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  /* used on container of other containers */
+  flex-direction: row;
+  /* flex-wrap: wrap-reverse; */
+  /* wraps content to fit when resizing window  */
+  justify-content: center;
+  background-color: brown;
+  height: 50vh;
+  align-items: center;
+  /* aligns items vertically */
+  /* align-content: center; */
+  /* no spaces in between */
+}
+.box1 {
+  height: 234px;
+  /* width: 345px; */
+  border: 2px solid black;
+  background-color: blue;
+  order: 4;
+  flex-grow: 3;
+  /* widens box with respect to other flex grows we have flex shrink too  */
+}
+.box2 {
+  border: 2px solid black;
+  height: 234px;
+  /* width: 345px; */
+  background-color: red;
+  order: 3;
+  /* order in which boxes are arranged */
+  flex-grow: 2;
+}
+.box3 {
+  border: 2px solid black;
+  height: 234px;
+  /* width: 345px; */
+  background-color: red;
+  order: 2;
+  flex-grow: 2;
+}
+.box4 {
+  border: 2px solid black;
+  height: 234px;
+  /* width: 345px; */
+  background-color: red;
+  order: 1;
+  align-self: flex-end;
+  /* aligns itself */
+  flex-grow: 1;
+}

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    list-style: none;
+    padding: 0 40px;
+}
+ul{
+    padding: 30px;
+}
+header{
+    background-color: black;
+    color: blanchedalmond;
+    
+}
+.container{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+
+}
+.left{
+    width: 40vw;
+    height: 50vh;
+    background-color: grey;
+}
+.right{
+    width: 40vw;
+
+    height: 50vh;
+    background-color:green;
+}

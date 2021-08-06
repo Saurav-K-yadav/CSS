@@ -7,9 +7,9 @@
   width: 345px;
   background-color: blue;
   float: right;
-  clear: left;
 }
 .box2 {
+  clear: left;
   height: 234px;
   width: 345px;
   background-color: red;

@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cointainer{
+    display: grid;
+    background-color: yellow;
+}

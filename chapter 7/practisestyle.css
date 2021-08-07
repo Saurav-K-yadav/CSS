@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 0 40vw;
+  height: 122 px;
+  background-color: bluet;
+  color: green;
+}
+header ul li {
+  display: inline;
+}
+main {
+  background-color: green;
+  height: 900px;
+}
+.progress {
+  animation: load 3s ease-in-out 1;
+  background-color: red;
+  height: 3px;
+}
+main img {
+
+  animation: rotate 1s ease-in infinite;
+}
+@keyframes load {
+  0% {
+    width: 0vw;
+  }
+  50% {
+    width: 70vw;
+  }
+  100% {
+    width: 100vw;
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}

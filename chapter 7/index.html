@@ -15,14 +15,19 @@
         eligendi consectetur autem quam, incidunt odit veniam et in nemo omnis?
       </div>
       <div class="box2">
-        <img
-          src="https://unsplash.com/photos/qDG7XKJLKbs?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
-          alt="Weird Image"
+        <img src="https://source.unsplash.com/1600x900/?nature alt="Weird Image"
         />
       </div>
       <div class="box3">
-        <img src="" alt="" />
+        <img id="image" src="https://source.unsplash.com/daily" alt="Images" />
+        <button id="btn">Button</button>
       </div>
     </div>
+    
   </body>
+  <script>
+    btn.addEventListener("click", () => {
+      image.style.width = "100vw";
+    });
+  </script>
 </html>

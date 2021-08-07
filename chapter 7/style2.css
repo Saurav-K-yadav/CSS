@@ -1,6 +1,24 @@
-.container{
-    background-color: red;
+* {
+  margin: 0;
+  padding: 0;
 }
-.box{
-    border: 2px solid black;
+.container {
+  background-color: red;
+  height: 30vh;
+}
+.box {
+  border: 2px solid black;
+  transform: translate(3vw, 10vw) rotate(45deg);
+  transform-origin: 0;
+  /* transform will start from start 
+     */
+}
+.box2 {
+  transform: scale(1.25, 2);
+  transform: skew(4deg, 5deg);
+}
+.box3:hover   {
+    width: 100vw;
+background-color: teal;
+
 }
